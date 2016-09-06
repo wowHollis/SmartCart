@@ -1,0 +1,5 @@
+To compile Pixy, we need to IDE tools from the following site.
+
+http://www.nxp.com/products/software-and-tools/software-development-tools/software-tools/lpc-microcontroller-utilities/lpcxpresso-ide-v8.2.0:LPCXPRESSO
+
+Currently, we can complie pixy sources using Linux IDE version. (2016.9.6)
