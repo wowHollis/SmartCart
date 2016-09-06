@@ -33,6 +33,16 @@ int ch2;
 float manual_speed;       // cacluated speed get from RC controler, -1 ~ 1 range.
 float manual_direction;   // cacluated direction get from RC controler, -1 ~ 1 range.
 
+float pixy_speed;       // speed came from Pixy, -1 ~ 1 range.
+float pixy_direction;   // direction came from Pixy, -1 ~ 1 range.
+
+// vector x, y-axis to Avoid obstacle.  Range -1.0 ~ 1.0
+// y-axis is front/back way, x-axis is left/right side.
+// This vector is aim to opposit direciton of the sensor's face direction.
+// The value of dot-matrix(sqrt(x^2 + y^2)) reflect the distance of obstacle.
+float sonar_y;   
+float sonar_x;
+
 float final_speed;       // final calculated speed.
 float final_direction;   // Final calculated direciton.
 
@@ -113,12 +123,6 @@ void calcuSpeedDirection(){
   motor_L = max(motor_L, -MAX_MOTOR_SPEED);
   motor_R = max(motor_R, -MAX_MOTOR_SPEED);
 
-
-  Serial.print(axis_x);
-  Serial.print(" - ");
-  Serial.print(axis_y);
-
-  Serial.print("    |    ");
 
   Serial.print(motor_L);
   Serial.print(" | ");
