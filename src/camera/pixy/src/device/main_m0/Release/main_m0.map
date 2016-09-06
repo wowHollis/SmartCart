@@ -1,0 +1,1144 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+                              ./src/main_m0.o (chirpOpen)
+/home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+                              ./src/cr_startup_lpc43xx-m0app.o (UARTPuts)
+/home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                              ./src/main_m0.o (exec_init)
+/home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                              ./src/main_m0.o (frame_init)
+/home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o) (UART_Init)
+/home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o) (getRLSFrame)
+/home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o) (linkSend)
+/home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o) (g_qqueue)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o) (memcpy)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o) (memset)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc43xx-m0app.o (__main)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o) (malloc)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o) (vsprintf)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o) (__vfprintf)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o) (__Ciob)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strcmp.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o) (strcmp)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strlen.o)
+                              /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o) (strlen)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o) (__filbuf)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o) (__heaps)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_sbrk.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o) (_sbrk)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o) (_deferredlazyseek)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_fflush.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o) (_fflush)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_frexpl.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o) (_frexpl)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_ldexpl.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o) (_ldexpl)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_writebuf.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o) (_Cwritebuf)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(errno.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_sbrk.o) (errno)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fseek.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o) (fseek)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(ftell.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fseek.o) (ftell)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_check_heap.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_sbrk.o) (__check_heap_overflow)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_hugeval.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_ldexpl.o) (__huge_vall)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_32.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o) (__aeabi_idiv)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o) (__aeabi_dmul)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o) (__aeabi_lmul)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/cr_startup_lpc43xx-m0app.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc43xx-m0app.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc43xx-m0app.o
+ .text          0x00000000        0x0 ./src/main_m0.o
+ .data          0x00000000        0x0 ./src/main_m0.o
+ .bss           0x00000000        0x0 ./src/main_m0.o
+ .text          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .data          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss           0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.linkGetFlags
+                0x00000000       0x18 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.copyAlign
+                0x00000000       0x38 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.chirpClose
+                0x00000000       0x1c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.loadArgs
+                0x00000000      0x14c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.chirpCall
+                0x00000000      0x11c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.chirpGetProc
+                0x00000000       0x74 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.chirpRemoteInit
+                0x00000000       0x78 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.chirpGetType
+                0x00000000       0x18 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.calcCrc  0x00000000       0x60 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .data          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .bss           0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.UARTGetChar
+                0x00000000       0x2c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .rodata        0x00000000        0x7 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.UARTPuts_
+                0x00000000       0x30 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.UARTPutDec
+                0x00000000       0xa8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.UARTPutDec16
+                0x00000000      0x120 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.UARTPutDec32
+                0x00000000      0x218 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.UARTPutHex
+                0x00000000       0x88 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.UARTPutHex16
+                0x00000000       0x88 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.UARTPutHex32
+                0x00000000       0x80 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.lpc_printf
+                0x00000000       0x4c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text.debug_frmwrk_init_clk
+                0x00000000       0x48 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .text          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .data          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .bss           0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .text          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .data          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .bss           0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .text.vsync    0x00000000       0x6c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .text          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .data          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .bss           0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_setBaudRate
+                0x00000000       0x18 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_Init
+                0x00000000       0x14 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_DeInit
+                0x00000000       0x1c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_ConfigStructInit
+                0x00000000       0x30 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_ReceiveByte
+                0x00000000       0x2c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_Receive
+                0x00000000       0xbc /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_ForceBreak
+                0x00000000       0x38 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_IntConfig
+                0x00000000       0xd0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .rodata.UART_IntConfig
+                0x00000000       0x1c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_GetLineStatus
+                0x00000000       0x2c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_CheckBusy
+                0x00000000       0x20 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_FIFOConfig
+                0x00000000       0xf4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_FIFOConfigStructInit
+                0x00000000       0x28 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_ABCmd
+                0x00000000       0xdc /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_TxCmd
+                0x00000000       0x64 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_FullModemForcePinState
+                0x00000000       0x7c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_FullModemConfigMode
+                0x00000000       0x88 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_FullModemGetStatus
+                0x00000000       0x18 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_RS485Config
+                0x00000000       0xf8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_RS485ReceiverCmd
+                0x00000000       0x6c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_RS485Send
+                0x00000000      0x124 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_RS485SendSlvAddr
+                0x00000000       0x24 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text.UART_RS485SendData
+                0x00000000       0x24 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .text          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .data          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .bss           0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .bss.g_foo     0x00000000        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .text          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .data          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .bss           0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .text          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+ .data          0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+ .bss           0x00000000        0x0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+ .text.calloc   0x00000000       0x50 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+ .text._Csys_alloc
+                0x00000000       0x20 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+ .text.realloc  0x00000000       0x26 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+ .rodata.str1.1
+                0x00000000       0x18 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.fp_round
+                0x00000000       0x4a /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.pr_dec.constprop.1
+                0x00000000       0x2a /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.fprintf  0x00000000       0x2c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.printf_char
+                0x00000000       0x34 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.sprintf  0x00000000       0x6c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.fp_display
+                0x00000000      0x93c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.snprintf
+                0x00000000       0x6c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.vfprintf
+                0x00000000       0x1c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.vprintf  0x00000000       0x28 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.vsprintf
+                0x00000000       0x60 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.vsnprintf
+                0x00000000       0x60 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text.printf   0x00000000       0x50 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .rodata.str1.1
+                0x00000000       0x35 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fpprintf.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text.no_fp_display
+                0x00000000        0x4 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text.__vfprintf
+                0x00000000      0xd5c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text._fprintf
+                0x00000000       0x2c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text._printf_char
+                0x00000000       0x34 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text._sprintf
+                0x00000000       0x6c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text._snprintf
+                0x00000000       0x6c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text._vfprintf
+                0x00000000       0x20 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text._vprintf
+                0x00000000       0x28 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text._vsprintf
+                0x00000000       0x60 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text._vsnprintf
+                0x00000000       0x60 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text._printf  0x00000000       0x50 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .rodata.str1.1
+                0x00000000       0x38 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(printf.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text.getc     0x00000000       0x1c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text.fgetc    0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text.getchar  0x00000000       0x24 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text.putc     0x00000000       0x1e /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text.fputc    0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text.putchar  0x00000000       0x28 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text.feof     0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text.ferror   0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text.clearerr
+                0x00000000       0x10 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .bss.__Ciob    0x00000000      0x140 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(stdio.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strcmp.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strcmp.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strcmp.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strlen.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strlen.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strlen.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o)
+ .text._Csys_read_
+                0x00000000       0x22 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o)
+ .text.__filbuf
+                0x00000000      0x194 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o)
+ .text._fillb2  0x00000000       0x1c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__fillbuf.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .text._init_alloc
+                0x00000000       0x14 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_sbrk.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_sbrk.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_sbrk.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o)
+ .text._deferredlazyseek
+                0x00000000       0x44 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o)
+ .text.__flsbuf
+                0x00000000      0x150 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_deferredlazyseek.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_fflush.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_fflush.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_fflush.o)
+ .text._fflush  0x00000000       0x64 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_fflush.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_fflush.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_fflush.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_frexpl.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_frexpl.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_frexpl.o)
+ .text._frexpl  0x00000000       0x80 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_frexpl.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_frexpl.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_frexpl.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_ldexpl.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_ldexpl.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_ldexpl.o)
+ .text._ldexpl  0x00000000       0x58 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_ldexpl.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_ldexpl.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_ldexpl.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_writebuf.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_writebuf.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_writebuf.o)
+ .text._Cwritebuf
+                0x00000000       0x6c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_writebuf.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_writebuf.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_writebuf.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(errno.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(errno.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(errno.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fseek.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fseek.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fseek.o)
+ .text.fseek    0x00000000      0x100 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fseek.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fseek.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(fseek.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(ftell.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(ftell.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(ftell.o)
+ .text.ftell    0x00000000       0x4c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(ftell.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(ftell.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(ftell.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_check_heap.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_check_heap.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_check_heap.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_hugeval.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_hugeval.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_hugeval.o)
+ .rodata.__huge_val
+                0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_hugeval.o)
+ .rodata.__huge_vall
+                0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_hugeval.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_hugeval.o)
+ .ARM.attributes
+                0x00000000       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_hugeval.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .text.__aeabi_division_idivmod
+                0x00000000       0x78 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .ARM.attributes
+                0x00000000       0x21 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_32.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .text.__aeabi_division_idiv0
+                0x00000000        0x2 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x00000000       0x21 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dmul
+                0x00000000      0x17c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ddiv
+                0x00000000      0x14c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dsub
+                0x00000000      0x1c8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dadd
+                0x00000000      0x130 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_drsub
+                0x00000000       0x18 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dneg
+                0x00000000        0xc /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2iz
+                0x00000000       0x44 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2uiz
+                0x00000000       0x34 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2lz
+                0x00000000       0x78 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2ulz
+                0x00000000       0x58 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ui2d
+                0x00000000       0x5e /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__bhs_ul2d
+                0x00000000       0xb4 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_i2d
+                0x00000000       0x16 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ui2d
+                0x00000000        0xc /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_l2d
+                0x00000000       0x20 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ul2d
+                0x00000000        0xc /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpeq
+                0x00000000       0x30 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmplt
+                0x00000000       0x5c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpgt
+                0x00000000       0x5c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmple
+                0x00000000       0x5c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpge
+                0x00000000       0x60 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpun
+                0x00000000       0x18 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdcmple
+                0x00000000       0x2e /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdrcmple
+                0x00000000       0x14 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lmul
+                0x00000000       0x2e /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsl
+                0x00000000       0x18 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_llsr
+                0x00000000       0x18 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lasr
+                0x00000000       0x18 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_lcmp
+                0x00000000       0x14 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text.__aeabi_llong_ulcmp
+                0x00000000       0x10 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .ARM.attributes
+                0x00000000       0x21 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(llong.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x6 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RamAHB16         0x20008000         0x00004000         xrw
+RamAHB32         0x20000000         0x00008000         xrw
+RamLoc128        0x10000000         0x00020000         xrw
+RamLoc72         0x10080000         0x00012000         xrw
+RamAHB_ETB16     0x2000c000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc43xx-m0app.o
+LOAD ./src/main_m0.o
+LOAD /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a
+START GROUP
+LOAD /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a
+LOAD /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a
+END GROUP
+                0x20008000                __base_RamAHB16 = 0x20008000
+                0x20008000                __base_RAM = 0x20008000
+                0x2000c000                __top_RamAHB16 = 0x2000c000
+                0x2000c000                __top_RAM = 0x2000c000
+                0x20000000                __base_RamAHB32 = 0x20000000
+                0x20000000                __base_RAM2 = 0x20000000
+                0x20008000                __top_RamAHB32 = 0x20008000
+                0x20008000                __top_RAM2 = 0x20008000
+                0x10000000                __base_RamLoc128 = 0x10000000
+                0x10000000                __base_RAM3 = 0x10000000
+                0x10020000                __top_RamLoc128 = 0x10020000
+                0x10020000                __top_RAM3 = 0x10020000
+                0x10080000                __base_RamLoc72 = 0x10080000
+                0x10080000                __base_RAM4 = 0x10080000
+                0x10092000                __top_RamLoc72 = 0x10092000
+                0x10092000                __top_RAM4 = 0x10092000
+                0x2000c000                __base_RamAHB_ETB16 = 0x2000c000
+                0x2000c000                __base_RAM5 = 0x2000c000
+                0x20010000                __top_RamAHB_ETB16 = 0x20010000
+                0x20010000                __top_RAM5 = 0x20010000
+
+.text           0x20008000     0x2210
+ FILL mask 0xff
+                0x20008000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x20008000       0xc0 ./src/cr_startup_lpc43xx-m0app.o
+                0x20008000                g_pfnVectors
+                0x200080c0                . = ALIGN (0x4)
+                0x200080c0                __section_table_start = .
+                0x200080c0                __data_section_table = .
+                0x200080c0        0x4 LONG 0x2000a210 LOADADDR (.data)
+                0x200080c4        0x4 LONG 0x2000a210 ADDR (.data)
+                0x200080c8        0x4 LONG 0x10 SIZEOF (.data)
+                0x200080cc        0x4 LONG 0x2000a210 LOADADDR (.data_RAM2)
+                0x200080d0        0x4 LONG 0x20000000 ADDR (.data_RAM2)
+                0x200080d4        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x200080d8        0x4 LONG 0x2000a210 LOADADDR (.data_RAM3)
+                0x200080dc        0x4 LONG 0x10000000 ADDR (.data_RAM3)
+                0x200080e0        0x4 LONG 0x0 SIZEOF (.data_RAM3)
+                0x200080e4        0x4 LONG 0x2000a210 LOADADDR (.data_RAM4)
+                0x200080e8        0x4 LONG 0x10080000 ADDR (.data_RAM4)
+                0x200080ec        0x4 LONG 0x0 SIZEOF (.data_RAM4)
+                0x200080f0        0x4 LONG 0x2000a210 LOADADDR (.data_RAM5)
+                0x200080f4        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
+                0x200080f8        0x4 LONG 0x0 SIZEOF (.data_RAM5)
+                0x200080fc                __data_section_table_end = .
+                0x200080fc                __bss_section_table = .
+                0x200080fc        0x4 LONG 0x2000a220 ADDR (.bss)
+                0x20008100        0x4 LONG 0x30 SIZEOF (.bss)
+                0x20008104        0x4 LONG 0x20000000 ADDR (.bss_RAM2)
+                0x20008108        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x2000810c        0x4 LONG 0x10000000 ADDR (.bss_RAM3)
+                0x20008110        0x4 LONG 0x0 SIZEOF (.bss_RAM3)
+                0x20008114        0x4 LONG 0x10080000 ADDR (.bss_RAM4)
+                0x20008118        0x4 LONG 0x0 SIZEOF (.bss_RAM4)
+                0x2000811c        0x4 LONG 0x2000c000 ADDR (.bss_RAM5)
+                0x20008120        0x4 LONG 0x0 SIZEOF (.bss_RAM5)
+                0x20008124                __bss_section_table_end = .
+                0x20008124                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x20008124       0xb8 ./src/cr_startup_lpc43xx-m0app.o
+                0x20008124                data_init
+                0x20008164                bss_init
+                0x20008198                M0_NMI_Handler
+                0x200081a0                M0_HardFault_Handler
+                0x200081bc                M0_SVC_Handler
+                0x200081c4                M0_PendSV_Handler
+                0x200081cc                M0_SysTick_Handler
+                0x200081d4                M0_TIMER0_IRQHandler
+                0x200081d4                M0_IntDefaultHandler
+                0x200081d4                M0_I2C0_OR_I2C1_IRQHandler
+                0x200081d4                M0_EVENTROUTER_IRQHandler
+                0x200081d4                M0_ETH_IRQHandler
+                0x200081d4                M0_M0SUB_IRQHandler
+                0x200081d4                M0_USB0_IRQHandler
+                0x200081d4                M0_ADC0_IRQHandler
+                0x200081d4                M0_TIMER3_IRQHandler
+                0x200081d4                M0_C_CAN0_IRQHandler
+                0x200081d4                M0_DMA_IRQHandler
+                0x200081d4                M0_RIT_OR_WWDT_IRQHandler
+                0x200081d4                M0_USART2_OR_C_CAN1_IRQHandler
+                0x200081d4                M0_SSP0_OR_SSP1_IRQHandler
+                0x200081d4                M0_LCD_IRQHandler
+                0x200081d4                M0_SPIFI_OR_VADC_IRQHandler
+                0x200081d4                M0_GINT1_IRQHandler
+                0x200081d4                M0_SCT_IRQHandler
+                0x200081d4                M0_ADC1_IRQHandler
+                0x200081d4                M0_SDIO_IRQHandler
+                0x200081d4                M0_SPI_OR_DAC_IRQHandler
+                0x200081d4                M0_I2S0_OR_I2S1_OR_QEI_IRQHandler
+                0x200081d4                M0_USART0_IRQHandler
+                0x200081d4                M0_MCPWM_IRQHandler
+                0x200081d4                M0_RTC_IRQHandler
+                0x200081d4                M0_SGPIO_IRQHandler
+                0x200081d4                M0_USB1_IRQHandler
+                0x200081d4                M0_M4CORE_IRQHandler
+                0x200081d4                M0_USART3_IRQHandler
+ *(.text*)
+ .text.ResetISR
+                0x200081dc       0x8c ./src/cr_startup_lpc43xx-m0app.o
+                0x200081dc                ResetISR
+ .text.main     0x20008268       0x34 ./src/main_m0.o
+                0x20008268                main
+ .text.linkBlockSize
+                0x2000829c       0x10 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+                0x2000829c                linkBlockSize
+ .text.chirpInit
+                0x200082ac        0xc /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+                0x200082ac                chirpInit
+ .text.chirpOpen
+                0x200082b8       0xa0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+                0x200082b8                chirpOpen
+ .text.chirpAssemble
+                0x20008358       0x2c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+                0x20008358                chirpAssemble
+ .text.assembleHelper
+                0x20008384      0x388 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.sendChirpRetry
+                0x2000870c       0x60 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.sendChirp
+                0x2000876c       0x3c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.handleChirp
+                0x200087a8      0x3c0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.reallocTable
+                0x20008b68       0x80 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.lookupTable
+                0x20008be8       0x98 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.updateTable
+                0x20008c80       0xec /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.chirpSetProc
+                0x20008d6c       0x2c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+                0x20008d6c                chirpSetProc
+ .text.handleEnumerate
+                0x20008d98       0x4c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.handleInit
+                0x20008de4       0x60 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.reallocate
+                0x20008e44       0x14 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.chirpService
+                0x20008e58       0x48 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+                0x20008e58                chirpService
+ .text.recvChirp
+                0x20008ea0      0x20c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.sendFull
+                0x200090ac       0x74 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.recvFull
+                0x20009120       0x88 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .text.UARTPutChar
+                0x200091a8       0x24 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+                0x200091a8                UARTPutChar
+ .text.UARTPuts
+                0x200091cc       0x34 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+                0x200091cc                UARTPuts
+ .text.exec_init
+                0x20009200       0x48 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x20009200                exec_init
+ .text.exec_running
+                0x20009248       0x14 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x20009248                exec_running
+ .text.exec_stop
+                0x2000925c       0x18 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x2000925c                exec_stop
+ .text.exec_run
+                0x20009274       0x34 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x20009274                exec_run
+ .text.setup0   0x200092a8        0xc /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x200092a8                setup0
+ .text.loop0    0x200092b4       0x20 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x200092b4                loop0
+ .text.exec_loop
+                0x200092d4       0x38 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x200092d4                exec_loop
+ .text.syncM0   0x2000930c       0x3c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x2000930c                syncM0
+ .text.syncM1   0x20009348       0x64 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x20009348                syncM1
+ .text.lineM0   0x200093ac       0x70 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x200093ac                lineM0
+ .text.lineM1R1
+                0x2000941c       0x74 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x2000941c                lineM1R1
+ .text.lineM1R2
+                0x20009490       0xb8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x20009490                lineM1R2
+ .text.lineM1R2Merge
+                0x20009548       0xb4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x20009548                lineM1R2Merge
+ .text.skipLine
+                0x200095fc       0x34 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x200095fc                skipLine
+ .text.skipLines
+                0x20009630       0x50 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x20009630                skipLines
+ .text.grabM0R0
+                0x20009680       0x58 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x20009680                grabM0R0
+ .text.grabM1R1
+                0x200096d8       0x58 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x200096d8                grabM1R1
+ .text.grabM1R2
+                0x20009730       0xf4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x20009730                grabM1R2
+ .text.callSyncM0
+                0x20009824       0x1c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x20009824                callSyncM0
+ .text.callSyncM1
+                0x20009840       0x1c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x20009840                callSyncM1
+ .text.getFrame
+                0x2000985c       0xa8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x2000985c                getFrame
+ .text.frame_init
+                0x20009904       0x20 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                0x20009904                frame_init
+ .text.UART_SendByte
+                0x20009924       0x34 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+                0x20009924                UART_SendByte
+ .text.UART_Send
+                0x20009958       0xec /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+                0x20009958                UART_Send
+ .text.lineProcessedRL0A
+                0x20009a44       0x74 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+                0x20009a44                lineProcessedRL0A
+ .text.lineProcessedRL1A
+                0x20009ab8      0x124 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+                0x20009ab8                lineProcessedRL1A
+ .text.getRLSFrame
+                0x20009bdc      0x178 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+                0x20009bdc                getRLSFrame
+ .text.rls_init
+                0x20009d54       0x20 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+                0x20009d54                rls_init
+ .text.linkGetFlags
+                0x20009d74       0x34 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+                0x20009d74                linkGetFlags
+ .text.linkSend
+                0x20009da8       0x60 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+                0x20009da8                linkSend
+ .text.linkReceive
+                0x20009e08       0x60 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+                0x20009e08                linkReceive
+ .text.qq_enqueue
+                0x20009e68       0x70 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+                0x20009e68                qq_enqueue
+ .text.qq_free  0x20009ed8       0x38 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+                0x20009ed8                qq_free
+ .text.memcpy   0x20009f10        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+                0x20009f10                memcpy
+ .text.memset   0x20009f18        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+                0x20009f18                memset
+ .text.__weak_main
+                0x20009f20        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                0x20009f20                __main
+                0x20009f20                __weak_main
+ .text.malloc   0x20009f28       0xcc /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+                0x20009f28                malloc
+ .text.free     0x20009ff4       0x2e /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+                0x20009ff4                free
+ *fill*         0x2000a022        0x2 ff
+ .text.strcmp   0x2000a024       0x44 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strcmp.o)
+                0x2000a024                strcmp
+ .text.strlen   0x2000a068       0x54 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strlen.o)
+                0x2000a068                strlen
+ .text._sbrk    0x2000a0bc       0x40 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_sbrk.o)
+                0x2000a0bc                _sbrk
+ .text.__check_heap_overflow
+                0x2000a0fc       0x14 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_check_heap.o)
+                0x2000a0fc                __check_heap_overflow
+ .text.__aeabi_d2f
+                0x2000a110       0x64 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+                0x2000a110                __aeabi_d2f
+ .text.__aeabi_memcpy
+                0x2000a174       0x2c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+                0x2000a174                __aeabi_memcpy
+                0x2000a174                __aeabi_memcpy4
+                0x2000a174                __aeabi_memcpy8
+ .text.__aeabi_memset_lowlevel
+                0x2000a1a0       0x2a /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+                0x2000a1a0                __aeabi_lowlevel_memset
+ *(.rodata .rodata.* .constdata .constdata.*)
+ *fill*         0x2000a1ca        0x2 ff
+ .rodata        0x2000a1cc        0xb ./src/cr_startup_lpc43xx-m0app.o
+ *fill*         0x2000a1d7        0x1 ff
+ .rodata        0x2000a1d8        0xa ./src/main_m0.o
+ *fill*         0x2000a1e2        0x2 ff
+ .rodata        0x2000a1e4       0x14 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .rodata        0x2000a1f8        0x9 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ *fill*         0x2000a201        0x3 ff
+ .rodata        0x2000a204        0xc /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+                0x2000a210                . = ALIGN (0x4)
+
+.glue_7         0x2000a210        0x0
+ .glue_7        0x2000a210        0x0 linker stubs
+
+.glue_7t        0x2000a210        0x0
+ .glue_7t       0x2000a210        0x0 linker stubs
+
+.vfp11_veneer   0x2000a210        0x0
+ .vfp11_veneer  0x2000a210        0x0 linker stubs
+
+.v4_bx          0x2000a210        0x0
+ .v4_bx         0x2000a210        0x0 linker stubs
+
+.iplt           0x2000a210        0x0
+ .iplt          0x2000a210        0x0 ./src/cr_startup_lpc43xx-m0app.o
+
+.rel.dyn        0x2000a210        0x0
+ .rel.iplt      0x2000a210        0x0 ./src/cr_startup_lpc43xx-m0app.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x2000a210                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x2000a210                __exidx_end = .
+                0x2000a210                _etext = .
+
+.data_RAM2      0x20000000        0x0 load address 0x2000a210
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2, .)
+
+.data_RAM3      0x10000000        0x0 load address 0x2000a210
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM3, .)
+ *(.ramfunc.$RAM3)
+ *(.ramfunc.$RamLoc128)
+ *(.data.$RAM3*)
+ *(.data.$RamLoc128*)
+                0x10000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM3, .)
+
+.data_RAM4      0x10080000        0x0 load address 0x2000a210
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM4, .)
+ *(.ramfunc.$RAM4)
+ *(.ramfunc.$RamLoc72)
+ *(.data.$RAM4*)
+ *(.data.$RamLoc72*)
+                0x10080000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM4, .)
+
+.data_RAM5      0x2000c000        0x0 load address 0x2000a210
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM5, .)
+ *(.ramfunc.$RAM5)
+ *(.ramfunc.$RamAHB_ETB16)
+ *(.data.$RAM5*)
+ *(.data.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM5, .)
+
+.uninit_RESERVED
+                0x2000a210        0x0
+ *(.bss.$RESERVED*)
+                0x2000a210                . = ALIGN (0x4)
+                0x2000a210                _end_uninit_RESERVED = .
+
+.data           0x2000a210       0x10
+ FILL mask 0xff
+                0x2000a210                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.g_program
+                0x2000a210        0x1 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x2000a210                g_program
+ *fill*         0x2000a211        0x3 ff
+ .data.g_m0mem  0x2000a214        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x2000a214                g_m0mem
+ .data.g_lut    0x2000a218        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x2000a218                g_lut
+ .data.g_qqueue
+                0x2000a21c        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+                0x2000a21c                g_qqueue
+                0x2000a220                . = ALIGN (0x4)
+                0x2000a220                _edata = .
+
+.igot.plt       0x2000a220        0x0
+ .igot.plt      0x2000a220        0x0 ./src/cr_startup_lpc43xx-m0app.o
+
+.bss_RAM2       0x20000000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x20000000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2, .)
+
+.bss_RAM3       0x10000000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM3, .)
+ *(.bss.$RAM3*)
+ *(.bss.$RamLoc128*)
+                0x10000000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM3, .)
+
+.bss_RAM4       0x10080000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM4, .)
+ *(.bss.$RAM4*)
+ *(.bss.$RamLoc72*)
+                0x10080000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM4, .)
+
+.bss_RAM5       0x2000c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM5, .)
+ *(.bss.$RAM5*)
+ *(.bss.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM5, .)
+
+.bss            0x2000a220       0x30
+                0x2000a220                _bss = .
+ *(.bss*)
+ .bss.g_procTable
+                0x2000a220        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss.g_procTableSize
+                0x2000a224        0x2 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss.g_blkSize
+                0x2000a226        0x2 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss.g_connected
+                0x2000a228        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss.g_buf     0x2000a22c        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss.g_len     0x2000a230        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss.g_bufSize
+                0x2000a234        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss.g_remoteInit
+                0x2000a238        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss.g_hinformer
+                0x2000a23c        0x4 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .bss.g_running
+                0x2000a240        0x1 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x2000a240                g_running
+ .bss.g_run     0x2000a241        0x1 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                0x2000a241                g_run
+ *fill*         0x2000a242        0x2 
+ .bss.__heaps   0x2000a244        0x4 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+                0x2000a244                __heaps
+ .bss.__end_of_heap
+                0x2000a248        0x4 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+                0x2000a248                __end_of_heap
+ .bss.errno     0x2000a24c        0x4 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(errno.o)
+                0x2000a24c                errno
+ *(COMMON)
+                0x2000a250                . = ALIGN (0x4)
+                0x2000a250                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit_RAM2    0x20000000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.noinit_RAM3    0x10000000        0x0
+ *(.noinit.$RAM3*)
+ *(.noinit.$RamLoc128*)
+                0x10000000                . = ALIGN (0x4)
+
+.noinit_RAM4    0x10080000        0x0
+ *(.noinit.$RAM4*)
+ *(.noinit.$RamLoc72*)
+                0x10080000                . = ALIGN (0x4)
+
+.noinit_RAM5    0x2000c000        0x0
+ *(.noinit.$RAM5*)
+ *(.noinit.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.noinit         0x2000a250        0x0
+                0x2000a250                _noinit = .
+ *(.noinit*)
+                0x2000a250                . = ALIGN (0x4)
+                0x2000a250                _end_noinit = .
+                0x2000a250                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x2000c000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamAHB16 - 0x0))
+OUTPUT(main_m0.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x3e29
+ .debug_info    0x00000000      0x5c6 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_info    0x000005c6      0x3ee ./src/main_m0.o
+ .debug_info    0x000009b4      0xb11 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .debug_info    0x000014c5      0x90b /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .debug_info    0x00001dd0      0x1b8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .debug_info    0x00001f88      0x6f3 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .debug_info    0x0000267b      0xe1c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .debug_info    0x00003497      0x501 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .debug_info    0x00003998      0x2e9 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .debug_info    0x00003c81      0x1a8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+
+.debug_abbrev   0x00000000      0xede
+ .debug_abbrev  0x00000000      0x175 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_abbrev  0x00000175       0xcc ./src/main_m0.o
+ .debug_abbrev  0x00000241      0x23e /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .debug_abbrev  0x0000047f      0x1c0 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .debug_abbrev  0x0000063f       0xfd /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .debug_abbrev  0x0000073c      0x1ce /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .debug_abbrev  0x0000090a      0x1f2 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .debug_abbrev  0x00000afc      0x1cc /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .debug_abbrev  0x00000cc8      0x115 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .debug_abbrev  0x00000ddd      0x101 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+
+.debug_aranges  0x00000000      0x440
+ .debug_aranges
+                0x00000000       0x60 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_aranges
+                0x00000060       0x20 ./src/main_m0.o
+ .debug_aranges
+                0x00000080       0xf8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .debug_aranges
+                0x00000178       0x78 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .debug_aranges
+                0x000001f0       0x50 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .debug_aranges
+                0x00000240       0x98 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .debug_aranges
+                0x000002d8       0xd8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .debug_aranges
+                0x000003b0       0x38 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .debug_aranges
+                0x000003e8       0x30 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .debug_aranges
+                0x00000418       0x28 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+
+.debug_ranges   0x00000000      0x3a0
+ .debug_ranges  0x00000000       0x50 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_ranges  0x00000050       0x10 ./src/main_m0.o
+ .debug_ranges  0x00000060       0xe8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .debug_ranges  0x00000148       0x68 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .debug_ranges  0x000001b0       0x40 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .debug_ranges  0x000001f0       0x88 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .debug_ranges  0x00000278       0xc8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .debug_ranges  0x00000340       0x28 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .debug_ranges  0x00000368       0x20 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .debug_ranges  0x00000388       0x18 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+
+.debug_line     0x00000000     0x1763
+ .debug_line    0x00000000      0x142 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_line    0x00000142       0xb8 ./src/main_m0.o
+ .debug_line    0x000001fa      0x5c1 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .debug_line    0x000007bb      0x230 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .debug_line    0x000009eb      0x155 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .debug_line    0x00000b40      0x41f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .debug_line    0x00000f5f      0x3c7 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .debug_line    0x00001326      0x246 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .debug_line    0x0000156c      0x131 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .debug_line    0x0000169d       0xc6 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+
+.debug_str      0x00000000     0x11d9
+ .debug_str     0x00000000      0x33a ./src/cr_startup_lpc43xx-m0app.o
+                                0x36c (size before relaxing)
+ .debug_str     0x0000033a       0x16 ./src/main_m0.o
+                                0x22f (size before relaxing)
+ .debug_str     0x00000350      0x2fa /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+                                0x479 (size before relaxing)
+ .debug_str     0x0000064a      0x223 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+                                0x476 (size before relaxing)
+ .debug_str     0x0000086d       0x7f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+                                0x234 (size before relaxing)
+ .debug_str     0x000008ec      0x143 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+                                0x315 (size before relaxing)
+ .debug_str     0x00000a2f      0x62e /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+                                0x9b1 (size before relaxing)
+ .debug_str     0x0000105d       0xec /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+                                0x327 (size before relaxing)
+ .debug_str     0x00001149       0x6d /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+                                0x22a (size before relaxing)
+ .debug_str     0x000011b6       0x23 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+                                0x200 (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e ./src/cr_startup_lpc43xx-m0app.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/main_m0.o
+ .comment       0x0000006e       0x6f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .comment       0x0000006e       0x6f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .comment       0x0000006e       0x6f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .comment       0x0000006e       0x6f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .comment       0x0000006e       0x6f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .comment       0x0000006e       0x6f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .comment       0x0000006e       0x6f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .comment       0x0000006e       0x6f /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strcmp.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strlen.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_sbrk.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(errno.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_check_heap.o)
+ .comment       0x0000006e       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 ./src/cr_startup_lpc43xx-m0app.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/main_m0.o
+ .ARM.attributes
+                0x00000062       0x31 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .ARM.attributes
+                0x00000093       0x31 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .ARM.attributes
+                0x000000c4       0x31 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .ARM.attributes
+                0x000000f5       0x31 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .ARM.attributes
+                0x00000126       0x31 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .ARM.attributes
+                0x00000157       0x31 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .ARM.attributes
+                0x00000188       0x31 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .ARM.attributes
+                0x000001b9       0x31 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
+ .ARM.attributes
+                0x000001ea       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x0000021b       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(memset.o)
+ .ARM.attributes
+                0x0000024c       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x0000027d       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(alloc.o)
+ .ARM.attributes
+                0x000002ae       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strcmp.o)
+ .ARM.attributes
+                0x000002df       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(strlen.o)
+ .ARM.attributes
+                0x00000310       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__init_alloc.o)
+ .ARM.attributes
+                0x00000341       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_sbrk.o)
+ .ARM.attributes
+                0x00000372       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(errno.o)
+ .ARM.attributes
+                0x000003a3       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(_cr_check_heap.o)
+ .ARM.attributes
+                0x000003d4       0x31 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(double.o)
+ .ARM.attributes
+                0x00000405       0x21 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x00000000      0xd9c
+ .debug_frame   0x00000000      0x118 ./src/cr_startup_lpc43xx-m0app.o
+ .debug_frame   0x00000118       0x2c ./src/main_m0.o
+ .debug_frame   0x00000144      0x38c /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(chirp.o)
+ .debug_frame   0x000004d0      0x194 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(debug_frmwrk.o)
+ .debug_frame   0x00000664       0xd8 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(exec_m0.o)
+ .debug_frame   0x0000073c      0x200 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(frame_m0.o)
+ .debug_frame   0x0000093c      0x310 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(lpc43xx_uart.o)
+ .debug_frame   0x00000c4c       0x90 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(rls_m0.o)
+ .debug_frame   0x00000cdc       0x70 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(smlink.o)
+ .debug_frame   0x00000d4c       0x50 /home/weyoui/PROJECTS/SmartCart/Pixy/pixy/src/device/libpixy_m0/Release/liblibpixy_m0.a(qqueue.o)
