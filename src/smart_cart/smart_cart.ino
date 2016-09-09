@@ -3,6 +3,8 @@
 */
 
 #include <SimpleTimer.h>
+#include <SPI.h>
+#include <Pixy.h>
 
 #define MOTOR_LEFT_A 4
 #define MOTOR_LEFT_B 5
@@ -22,10 +24,18 @@
 #define MOTOR_LEFT 1
 #define MOTOR_RIGHT 2
 
-#define MAX_MOTOR_SPEED 255
+//#define MAX_MOTOR_SPEED 255
+#define MAX_MOTOR_SPEED 100
 #define MIN_MOTOR_SPEED 50
 
+#define CAM_WIDTH_MAX      300
+#define CAM_WIDTH_MIN      50
+
+#define CAM_MAX_X      319
+#define CAM_CENTER_X   109
+
 SimpleTimer timer;
+Pixy pixy;
 
 int ch1;
 int ch2;
@@ -35,6 +45,7 @@ float manual_direction;   // cacluated direction get from RC controler, -1 ~ 1 r
 
 float pixy_speed;       // speed came from Pixy, -1 ~ 1 range.
 float pixy_direction;   // direction came from Pixy, -1 ~ 1 range.
+float pixy_speed_ratio = 0.0f;
 
 // vector x, y-axis to Avoid obstacle.  Range -1.0 ~ 1.0
 // y-axis is front/back way, x-axis is left/right side.
@@ -61,7 +72,11 @@ void setup() {
   pinMode(RC_CH_1, INPUT); // Set remode control input channel 1
   pinMode(RC_CH_2, INPUT); // Set remode control input channel 2
 
+  pixy_speed_ratio = (CAM_WIDTH_MAX - CAM_WIDTH_MIN)/2;
+  pixy.init();
+
   timer.setInterval(500, getManualInput);
+  timer.setInterval(500, getPixyInput);
   timer.setInterval(100, calcuSpeedDirection);
   timer.setInterval(100, setMotorSpeed);
 }
@@ -91,12 +106,67 @@ void getManualInput(){
 }
 
 
+void getPixyInput(){
+  static int i = 0;
+  int j;
+  uint16_t blocks;
+  char buf[32];
+  float x = 0.0f;
+  float y = 0.0f;
+  float width = 0.0f;
+  float height = 0.0f;
+  float center = 0.0f;
+
+  // grab blocks!
+  blocks = pixy.getBlocks();
+
+  // If there are detect blocks, print them!
+  if (blocks)
+  {
+    // do this (print) every 50 frames because printing every
+    // frame would bog down the Arduino
+      sprintf(buf, "Detected %d:\r\n", blocks);
+      Serial.print(buf);
+      for (j=0; j<blocks; j++)
+      {
+//        sprintf(buf, "  block %d: ", j);
+//        Serial.print(buf);
+//        pixy.blocks[j].print();
+//        Serial.print('\r');
+
+        x = min(pixy.blocks[j].x, x);
+        y = min(pixy.blocks[j].y, y);
+        width = max(pixy.blocks[j].width, width);
+        height = max(pixy.blocks[j].height, height);
+      }
+
+      center = x + (width*0.5);
+      pixy_speed = ((width - CAM_WIDTH_MIN)/pixy_speed_ratio - 1.0f)*-1.0f;
+
+//      pixy_speed *= 0.2f;
+
+      pixy_speed = max(pixy_speed, -1.0f);
+      pixy_speed = min(pixy_speed, 1.0f);
+
+      Serial.print("pixy_speed :");
+      Serial.println(pixy_speed);
+  }
+  else{
+    pixy_speed = 0.0f;
+  }
+
+}
+
+
 
 void calcuSpeedDirection(){
 
   // Apply dir/speed get from rc remote.
   final_direction = (manual_direction + final_direction) * 0.5f;
   final_speed = (manual_speed + final_speed) * 0.5f;
+
+  final_direction = (pixy_direction + final_direction) * 0.5f;
+  final_speed = (pixy_speed + final_speed) * 0.5f;
 
   // Apply dir/speed get from obstacle sensor.
 
@@ -151,7 +221,6 @@ void calcuSpeedDirection(){
 void loop() {
 
   timer.run();
-
 }
 
 
