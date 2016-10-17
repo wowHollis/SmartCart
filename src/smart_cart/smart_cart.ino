@@ -25,14 +25,14 @@
 #define MOTOR_RIGHT 2
 
 //#define MAX_MOTOR_SPEED 255
-#define MAX_MOTOR_SPEED 100
-#define MIN_MOTOR_SPEED 50
+#define MAX_MOTOR_SPEED 70
+#define MIN_MOTOR_SPEED 20
 
-#define CAM_WIDTH_MAX      300
-#define CAM_WIDTH_MIN      50
+#define CAM_WIDTH_MAX      100
+#define CAM_WIDTH_MIN      20
 
-#define CAM_MAX_X      319
-#define CAM_CENTER_X   109
+#define CAM_MAX_X      320
+#define CAM_CENTER_X   (160)
 
 SimpleTimer timer;
 Pixy pixy;
@@ -57,6 +57,9 @@ float sonar_x;
 float final_speed;       // final calculated speed.
 float final_direction;   // Final calculated direciton.
 
+int motor_L;
+int motor_R;
+
 void setup() {
   Serial.begin(9600);
 
@@ -75,7 +78,7 @@ void setup() {
   pixy.init();
 
   timer.setInterval(100, getManualInput);
-  timer.setInterval(500, getPixyInput);
+  timer.setInterval(200, getPixyInput);
   timer.setInterval(100, calcuSpeedDirection);
   timer.setInterval(100, setMotorSpeed);
   timer.setInterval(100, plot);
@@ -112,9 +115,7 @@ void getPixyInput(){
   uint16_t blocks;
   char buf[32];
   float x = 0.0f;
-  float y = 0.0f;
-  float width = 0.0f;
-  float height = 0.0f;
+  float sizeMax = 0.0f;
   float center = 0.0f;
 
   // grab blocks!
@@ -123,10 +124,7 @@ void getPixyInput(){
   // If there are detect blocks, print them!
   if (blocks)
   {
-    // do this (print) every 50 frames because printing every
-    // frame would bog down the Arduino
-//      sprintf(buf, "Detected %d:\r\n", blocks);
-//      Serial.print(buf);
+
       for (j=0; j<blocks; j++)
       {
 //        sprintf(buf, "  block %d: ", j);
@@ -134,22 +132,20 @@ void getPixyInput(){
 //        pixy.blocks[j].print();
 //        Serial.print('\r');
 
-        x = min(pixy.blocks[j].x, x);
-        y = min(pixy.blocks[j].y, y);
-        width = max(pixy.blocks[j].width, width);
-        height = max(pixy.blocks[j].height, height);
+        x += pixy.blocks[j].x;
+        sizeMax = max(pixy.blocks[j].width, pixy.blocks[j].height);
       }
 
-      center = x + (width*0.5);
-      pixy_speed = ((width - CAM_WIDTH_MIN)/pixy_speed_ratio - 1.0f)*-1.0f;
-
-//      pixy_speed *= 0.2f;
-
+      center = (x/(float)blocks);
+      pixy_speed = ((sizeMax - CAM_WIDTH_MIN)/pixy_speed_ratio - 1.0f)*-1.0f;
       pixy_speed = max(pixy_speed, -1.0f);
       pixy_speed = min(pixy_speed, 1.0f);
+      
+      pixy_direction = (center - CAM_CENTER_X) / (float)CAM_CENTER_X;
 
-//      Serial.print("pixy_speed :");
-//      Serial.println(pixy_speed);
+//      if(-0.1f < pixy_direction && pixy_direction < 0.1f){
+//        pixy_direction = 0.0f;
+//      }
   }
   else{
     pixy_speed = 0.0f;
@@ -157,14 +153,16 @@ void getPixyInput(){
 
 }
 
-#define Kp 1.2
-#define Ki 0.01
-#define Kd 0.00002
+#define Kp 0.1
+#define Ki 0.2
+#define Kd 0.001
 #define dt 0.01
 
-double prev_err = 0.0;
-double sum_err = 0.0;
-double I_err = 0.0;
+double prev_err_speed = 0.0;
+double sum_err_speed = 0.0;
+
+double prev_err_dir = 0.0;
+double sum_err_dir = 0.0;
 
 
 void calcuSpeedDirection(){
@@ -174,22 +172,34 @@ void calcuSpeedDirection(){
   final_speed = (manual_speed + final_speed) * 0.5f;
 
 
-  double current_val;
   double err;
-  double D_err;
   double Kp_term, Ki_term, Kd_term;
 
   err = pixy_speed - final_speed;
-  sum_err += err;
+  sum_err_speed += err;
   Kp_term = Kp * err;
-  Ki_term = Ki * sum_err;
-  Kd_term = Kd * (err - prev_err);
+  Ki_term = Ki * sum_err_speed;
+  Kd_term = Kd * (err - prev_err_speed);
 
-  prev_err = err;
-
+  prev_err_speed = err;
   final_speed =  Kp_term + Ki_term + Kd_term; 
 
-  final_direction = 0.0f;
+
+  err = pixy_direction - final_direction;
+  sum_err_dir += err;
+  Kp_term = Kp * err;
+  Ki_term = Ki * sum_err_dir;
+  Kd_term = Kd * (err - prev_err_dir);
+
+  prev_err_dir = err;
+  final_direction =  Kp_term + Ki_term + Kd_term; 
+
+  
+
+//  final_speed = min(1.0, final_speed);
+//  final_speed = max(-1.0, final_speed);
+
+//  final_direction = 0.00f;
 //  final_speed += (pixy_speed - final_speed) * 0.8f;
 
   // Apply dir/speed get from obstacle sensor.
@@ -197,34 +207,41 @@ void calcuSpeedDirection(){
  }
 
  void plot() {
-  Serial.print(manual_speed);
+//  Serial.print(manual_speed*10);
+//  Serial.print(" ");
+//  Serial.print(manual_direction*10);
+//  Serial.print(" ");
+//  Serial.print(pixy_speed*10);
+//  Serial.print(" ");
+//  Serial.print(pixy_direction*10);
+//  Serial.print(" ");
+  Serial.print(final_speed*10);
   Serial.print(" ");
-  Serial.print(manual_direction);
+  Serial.print(final_direction*10);
   Serial.print(" ");
-  Serial.print(pixy_speed);
+  Serial.print(motor_L*0.1);
   Serial.print(" ");
-  Serial.print(pixy_direction);
+  Serial.print(motor_R*0.1);
   Serial.print(" ");
-  Serial.print(final_speed);
-  Serial.print(" ");
-  Serial.print(final_direction);
+  Serial.print("0.0 ");
   Serial.println();
  }
  
 
  void setMotorSpeed(){
 
-  int motor_L;
-  int motor_R;
 
   if(final_direction > 0){
-    motor_L = (int)(final_speed * MAX_MOTOR_SPEED);
-    motor_R = (int)(final_speed * (1.0f - final_direction) * MAX_MOTOR_SPEED);
+    motor_L = (int)(final_speed * 0.5f * (1.0f - (final_direction *0.3f)) * MAX_MOTOR_SPEED);
+    motor_R = (int)(final_speed * 0.5f * MAX_MOTOR_SPEED);
   }
   else{
-    motor_L = (int)(final_speed * (1.0f + final_direction) * MAX_MOTOR_SPEED);
-    motor_R = (int)(final_speed * MAX_MOTOR_SPEED);    
+    motor_L = (int)(final_speed * 0.5f * MAX_MOTOR_SPEED);    
+    motor_R = (int)(final_speed * 0.5f * (1.0f + (final_direction* 0.3f)) * MAX_MOTOR_SPEED);
   }
+
+//    motor_L = (int)(final_speed * 0.5f * MAX_MOTOR_SPEED);
+//    motor_R = (int)(final_speed * 0.5f * MAX_MOTOR_SPEED);
 
   motor_L = min(motor_L, MAX_MOTOR_SPEED);
   motor_R = min(motor_R, MAX_MOTOR_SPEED);
@@ -232,26 +249,20 @@ void calcuSpeedDirection(){
   motor_L = max(motor_L, -MAX_MOTOR_SPEED);
   motor_R = max(motor_R, -MAX_MOTOR_SPEED);
 
+//  motor_L = max(motor_L, 0);
+//  motor_R = max(motor_R, 0);
 
-//  Serial.print(motor_L);
-//  Serial.print(" | ");
-//  Serial.print(motor_R);
-//
-//  Serial.println();
 
   if(-MIN_MOTOR_SPEED < motor_L && motor_L < MIN_MOTOR_SPEED){
-//    motor(MOTOR_LEFT, 0);
-  }
-  else{
-//    motor(MOTOR_LEFT, motor_L);
+    motor_L = 0;
   }
 
   if(-MIN_MOTOR_SPEED < motor_R && motor_R < MIN_MOTOR_SPEED){
-//    motor(MOTOR_RIGHT, 0);
+    motor_R = 0;
   }
-  else{
-//    motor(MOTOR_RIGHT, motor_R);
-  }
+
+  motor(MOTOR_LEFT, motor_L);
+  motor(MOTOR_RIGHT, motor_R);
 
 }
 
@@ -300,10 +311,8 @@ void motor(int side, int speed)
 
   switch(dir){
     case DIR_FORWARD:
-    //Serial.println("...4");
       digitalWrite(pinA, HIGH);
       digitalWrite(pinB, LOW);
-      //Serial.println("...5");
       break;
       
     case DIR_BACKWARD:
@@ -320,8 +329,6 @@ void motor(int side, int speed)
       break;
   }
 
-//Serial.println("...6");
   analogWrite(pwm, speed);
-  //Serial.println("...7");
 }
 
