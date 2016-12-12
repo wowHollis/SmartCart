@@ -1,3 +1,5 @@
+
+
 /* Created by Hollis Kim.
 
 */
@@ -6,13 +8,13 @@
 #include <SPI.h>
 #include <Pixy.h>
 
-#define MOTOR_LEFT_A 4
-#define MOTOR_LEFT_B 5
-#define MOTOR_LEFT_PWM 9
+#define MOTOR_LEFT_A 7//4
+#define MOTOR_LEFT_B 8//5
+#define MOTOR_LEFT_PWM 5//9
 
-#define MOTOR_RIGHT_A 6
-#define MOTOR_RIGHT_B 7
-#define MOTOR_RIGHT_PWM 10
+#define MOTOR_RIGHT_A 9//6
+#define MOTOR_RIGHT_B 10//7
+#define MOTOR_RIGHT_PWM 6//10
 
 #define RC_CH_1 11
 #define RC_CH_2 13
@@ -25,8 +27,9 @@
 #define MOTOR_RIGHT 2
 
 //#define MAX_MOTOR_SPEED 255
-#define MAX_MOTOR_SPEED 70
-#define MIN_MOTOR_SPEED 20
+//#define MAX_MOTOR_SPEED 70
+#define MAX_MOTOR_SPEED 150
+#define MIN_MOTOR_SPEED 50
 
 #define CAM_WIDTH_MAX      100
 #define CAM_WIDTH_MIN      20
@@ -77,11 +80,11 @@ void setup() {
   pixy_speed_ratio = (CAM_WIDTH_MAX - CAM_WIDTH_MIN)/2;
   pixy.init();
 
-  timer.setInterval(100, getManualInput);
-  timer.setInterval(200, getPixyInput);
-  timer.setInterval(100, calcuSpeedDirection);
-  timer.setInterval(100, setMotorSpeed);
-  timer.setInterval(100, plot);
+  timer.setInterval(10, getManualInput);
+  timer.setInterval(10, getPixyInput);
+  timer.setInterval(10, calcuSpeedDirection);
+  timer.setInterval(10, setMotorSpeed);
+  timer.setInterval(10, plot);
 }
 
 
@@ -136,16 +139,23 @@ void getPixyInput(){
         sizeMax = max(pixy.blocks[j].width, pixy.blocks[j].height);
       }
 
+      // Serial.println(sizeMax);
+
       center = (x/(float)blocks);
-      pixy_speed = ((sizeMax - CAM_WIDTH_MIN)/pixy_speed_ratio - 1.0f)*-1.0f;
-      pixy_speed = max(pixy_speed, -1.0f);
-      pixy_speed = min(pixy_speed, 1.0f);
       
       pixy_direction = (center - CAM_CENTER_X) / (float)CAM_CENTER_X;
 
-//      if(-0.1f < pixy_direction && pixy_direction < 0.1f){
-//        pixy_direction = 0.0f;
-//      }
+      if( abs(pixy_direction) < 0.5f){
+        pixy_speed = ((sizeMax - CAM_WIDTH_MIN)/pixy_speed_ratio - 1.0f)*-1.0f;
+        pixy_speed = max(pixy_speed, -1.0f);
+        pixy_speed = min(pixy_speed, 1.0f);        
+      }
+      else{
+        if(pixy_speed == 0.0f){
+          pixy_speed == 0.2f;
+        }
+      }
+
   }
   else{
     pixy_speed = 0.0f;
@@ -197,9 +207,9 @@ void calcuSpeedDirection(){
   
 
 //  final_speed = min(1.0, final_speed);
-//  final_speed = max(-1.0, final_speed);
+//  final_speed = max(0, final_speed);
 
-//  final_direction = 0.00f;
+  final_direction = pixy_direction;
 //  final_speed += (pixy_speed - final_speed) * 0.8f;
 
   // Apply dir/speed get from obstacle sensor.
@@ -211,19 +221,19 @@ void calcuSpeedDirection(){
 //  Serial.print(" ");
 //  Serial.print(manual_direction*10);
 //  Serial.print(" ");
-//  Serial.print(pixy_speed*10);
-//  Serial.print(" ");
+  Serial.print(pixy_speed*10);
+  Serial.print(" ");
 //  Serial.print(pixy_direction*10);
 //  Serial.print(" ");
   Serial.print(final_speed*10);
   Serial.print(" ");
-  Serial.print(final_direction*10);
-  Serial.print(" ");
-  Serial.print(motor_L*0.1);
-  Serial.print(" ");
-  Serial.print(motor_R*0.1);
-  Serial.print(" ");
-  Serial.print("0.0 ");
+//  Serial.print(final_direction*10);
+//  Serial.print(" ");
+//  Serial.print(motor_L*0.1);
+//  Serial.print(" ");
+//  Serial.print(motor_R*0.1);
+//  Serial.print(" ");
+//  Serial.print("0.0 ");
   Serial.println();
  }
  
@@ -261,8 +271,8 @@ void calcuSpeedDirection(){
     motor_R = 0;
   }
 
-  motor(MOTOR_LEFT, motor_L);
-  motor(MOTOR_RIGHT, motor_R);
+//  motor(MOTOR_LEFT, motor_L);
+//  motor(MOTOR_RIGHT, motor_R);
 
 }
 
